@@ -83,6 +83,7 @@ Use the [NBT Editor mod](https://modrinth.com/mod/nbt-editor) to apply the lore 
 ### Image Resolution
 - **Default Width**: 75 pixels
 - **Default Height**: 64 pixels
+- **I would suggest you keep the aspect ratio as the origional image, so it doesn't look weird**
 
 **Tips for best results:**
 - Larger dimensions = more detail but longer lore text
@@ -130,6 +131,7 @@ Suggestions and improvements are welcome!
 # Side Note
 
 This project is mainly AI generated (including most part of this README.md), so I don't take much responsibility for any bugs because I didn't debug it myself. Feel free to modify and improve the code as needed! <3
+
 
 
 
