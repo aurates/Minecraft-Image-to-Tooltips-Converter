@@ -102,7 +102,7 @@ The script automatically detects image files with these extensions:
 
 ```
 converter/
-├── converter.py    # Main script
+├── converter.py            # Main script
 ├── README.md               # This file
 ├── image.png               # Your input image
 └── image_lore.txt          # Generated output
@@ -132,10 +132,3 @@ Suggestions and improvements are welcome!
 # Side Note
 
 This project is mainly AI generated (including most part of this README.md), so I don't take much responsibility for any bugs because I didn't debug it myself. Feel free to modify and improve the code as needed! <3
-
-
-
-
-
-
-
