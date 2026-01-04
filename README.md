@@ -68,6 +68,7 @@ The script generates a file containing the `minecraft:lore` component data in JS
 ## 🎯 Using in Minecraft
 
 ### Method 1: NBT Editor Mod
+#### The latest version of this mod only supports up to 1.21.4, so I suggest you do everything on 1.21.4 and use creative hotbar to migrate them to other verisons.
 Use the [NBT Editor mod](https://modrinth.com/mod/nbt-editor) to apply the lore to existing items in-game.
 
 1. Install the NBT Editor mod
@@ -129,4 +130,7 @@ Suggestions and improvements are welcome!
 # Side Note
 
 This project is mainly AI generated (including most part of this README.md), so I don't take much responsibility for any bugs because I didn't debug it myself. Feel free to modify and improve the code as needed! <3
+
+
+
 
