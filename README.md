@@ -76,7 +76,7 @@ Use the [NBT Editor mod](https://modrinth.com/mod/nbt-editor) to apply the lore 
 3. Use the mod's commands/interface to edit the item's lore component
 4. Paste the generated lore data
 
-### Method 2: Find it yourself :D
+### Method 2: Find it yourself :D (I think you can do it with data pack)
 
 ## ⚙️ Configuration
 
@@ -132,3 +132,4 @@ Suggestions and improvements are welcome!
 # Side Note
 
 This project is mainly AI generated (including most part of this README.md), so I don't take much responsibility for any bugs because I didn't debug it myself. Feel free to modify and improve the code as needed! <3
+
