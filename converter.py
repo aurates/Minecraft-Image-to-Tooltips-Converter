@@ -1,3 +1,4 @@
+# 99% of the code is done by vibe coding <3
 import os
 import json
 from PIL import Image
@@ -96,4 +97,5 @@ if __name__ == "__main__":
     width = int(width) if width else 75
     height = int(height) if height else 64
     
+
     create_lore_txt(image_path, img_width=width, img_height=height)
