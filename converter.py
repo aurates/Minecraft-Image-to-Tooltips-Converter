@@ -1,3 +1,4 @@
+# I love vibe coding <3
 import os
 import json
 from PIL import Image
@@ -107,3 +108,4 @@ if __name__ == "__main__":
         import preview_lore
         lore_lines = image_to_minecraft_lore(image_path, width, height)
         preview_lore.show_preview(lore_lines)
+
