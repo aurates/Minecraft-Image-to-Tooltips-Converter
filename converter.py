@@ -1,4 +1,3 @@
-# 99% of the code is done by vibe coding <3
 import os
 import json
 from PIL import Image
@@ -54,6 +53,7 @@ def image_to_minecraft_lore(image_path, width=75, height=64):
     
     return lore_lines
 
+
 def create_lore_txt(image_path, output_path=None, img_width=75, img_height=64):
     """Create a txt file with Minecraft lore format"""
     
@@ -76,7 +76,9 @@ def create_lore_txt(image_path, output_path=None, img_width=75, img_height=64):
     
     print(f"\nSuccessfully created {output_path}")
     print(f"File saved at: {os.path.abspath(output_path)}")
-    print(f"\nYou can copy this lore data and use it in your Minecraft item components")
+    print("\nYou can copy this lore data and use it in your Minecraft item components")
+
+    return lore_lines
 
 if __name__ == "__main__":
     # List image files in current directory
@@ -97,5 +99,11 @@ if __name__ == "__main__":
     width = int(width) if width else 75
     height = int(height) if height else 64
     
-
     create_lore_txt(image_path, img_width=width, img_height=height)
+
+    # Ask user if they want to preview
+    preview = input("\nWould you like to preview the output? (y/n, default n): ").strip().lower()
+    if preview in ('y', 'yes'):
+        import preview_lore
+        lore_lines = image_to_minecraft_lore(image_path, width, height)
+        preview_lore.show_preview(lore_lines)
