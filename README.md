@@ -2,6 +2,12 @@
 
 A Python script that converts images into Minecraft item lore format using colored unicode block characters (█). This allows you to display images as item tooltips in Minecraft 1.20.5+ using the new item component system.
 
+## Feature Highlights
+- Converts images to Minecraft lore format using colored blocks
+- Preview generated lore in a popup window
+- Supports PNG, JPG, JPEG, BMP, and GIF formats
+- Customizable output resolution
+
 ## 📋 Requirements
 
 ### Python Version
@@ -83,7 +89,7 @@ Use the [NBT Editor mod](https://modrinth.com/mod/nbt-editor) to apply the lore 
 ### Image Resolution
 - **Default Width**: 75 pixels
 - **Default Height**: 64 pixels
-  
+
 **I would suggest you keep the aspect ratio as the origional image, so it doesn't look weird**
 
 **Tips for best results:**
@@ -98,6 +104,9 @@ The script automatically detects image files with these extensions:
 - `.bmp`
 - `.gif`
 
+## 👀 Tooltips Preview
+After generating the lore file, there will be a preview option at the end of the cmd prompt. Type `y` and then a preview window will pop up to show you how the image looks like in Minecraft tooltips.
+
 ## 📁 File Structure
 
 ```
@@ -105,7 +114,9 @@ converter/
 ├── converter.py            # Main script
 ├── README.md               # This file
 ├── image.png               # Your input image
+├── preview_lore.py        # Preview script
 └── image_lore.txt          # Generated output
+
 ```
 
 ## 🔧 Troubleshooting
@@ -132,4 +143,5 @@ Suggestions and improvements are welcome!
 # Side Note
 
 This project is mainly AI generated (including most part of this README.md), so I don't take much responsibility for any bugs because I didn't debug it myself. Feel free to modify and improve the code as needed! <3
+
 
