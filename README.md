@@ -1,6 +1,6 @@
 # Minecraft Image to Lore Converter
 
-A Python script that converts images into Minecraft item lore format using colored unicode block characters (█). This allows you to display images as item tooltips in Minecraft 1.20.5+ using the new item component system.
+A Python script that converts images into Minecraft item lore format using colored unicode block characters (█). This allows you to display images as item tooltips on most of the modern Minecraft versions.
 
 ## Feature Highlights
 - Converts images to Minecraft lore format using colored blocks
